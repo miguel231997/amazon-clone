@@ -6,7 +6,7 @@ import 'firebase/compat/firestore';
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAU9LKNdmXhxMOgLN7kDkykZfgB0ZDrpPc",
+    apiKey: process.env.API_KEY_FIREBASE,
     authDomain: "eshop-c2df1.firebaseapp.com",
     projectId: "eshop-c2df1",
     storageBucket: "eshop-c2df1.appspot.com",
